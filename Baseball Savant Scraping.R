@@ -255,7 +255,7 @@ data2016 <- format_data(data2016)
 
 
 # Move data into CSV file for permanent data storage
-setwd('/Users/neal/Desktop/Coding\ Projects/Statcast\ Scrapping/Data\ CSVs')
+setwd('ENTER FILE PATH')
 write_csv(data2016, "Statcast Scrape 2016")
 
 
@@ -420,7 +420,7 @@ colnames(data2017)[94] <- "pitcher_name"
 data2017 <- format_data(data2017)
 
 # Move data into CSV file for permanent data storage
-setwd('/Users/neal/Desktop/Coding\ Projects/Statcast\ Scrapping/Data\ CSVs')
+setwd('ENTER FILE PATH')
 write_csv(data2017, "Statcast Scrape 2017")
 
 # Update Player ID Database
@@ -595,7 +595,7 @@ colnames(data2018)[94] <- "pitcher_name"
 data2018 <- format_data(data2018)
 
 # Move data into CSV file for permanent data storage
-setwd('/Users/neal/Desktop/Coding\ Projects/Statcast\ Scrapping/Data\ CSVs')
+setwd('ENTER FILE PATH')
 write_csv(data2018, "Statcast Scrape 2018")
 
 # Update Player ID Database
@@ -767,7 +767,7 @@ colnames(data2019)[94] <- "pitcher_name"
 data2019 <- format_data(data2019)
 
 # Move data into CSV file for permanent data storage
-setwd('/Users/neal/Desktop/Coding\ Projects/Statcast\ Scrapping/Data\ CSVs')
+setwd('ENTER FILE PATH')
 write_csv(data2019, "Statcast Scrape 2019")
 
 # Update Player ID Database
@@ -938,7 +938,7 @@ colnames(data2020)[94] <- "pitcher_name"
 data2020 <- format_data(data2020)
 
 # Move data into CSV file for permanent data storage
-setwd('/Users/neal/Desktop/Coding\ Projects/Statcast\ Scrapping/Data\ CSVs')
+setwd('ENTER FILE PATH')
 write_csv(data2020, "Statcast Scrape 2020")
 
 # Update Player ID Database
@@ -1111,7 +1111,7 @@ colnames(data2021)[94] <- "pitcher_name"
 data2021 <- format_data(data2021)
 
 # Move data into CSV file for permanent data storage
-setwd('/Users/neal/Desktop/Coding\ Projects/Statcast\ Scrapping/Data\ CSVs')
+setwd('ENTER FILE PATH')
 write_csv(data2021, "Statcast Scrape 2021")
 
 # Update Player ID Database
@@ -1290,7 +1290,7 @@ data2022 <- format_data(data2022)
 # Move data into CSV file for permanent data storage
 # Set the working directory to ensure correct location of saved CSV file
 
-setwd('/Users/neal/Desktop/Coding\ Projects/Statcast\ Scrapping/Data\ CSVs')
+setwd('ENTER FILE PATH')
 write_csv(data2022, "Statcast Scrape 2022")
 
 # Update Player ID Database to include new rookies and international FA signings if applicable
@@ -1473,7 +1473,7 @@ data2023 <- format_data(data2023)
 # Move data into CSV file for permanent data storage
 # Set the working directory to ensure correct location of saved CSV file
 
-setwd('/Users/neal/Desktop/Coding\ Projects/Statcast\ Scrapping/Data\ CSVs')
+setwd('ENTER FILE PATH')
 write_csv(data2023, "Statcast Scrape 2023")
 
 # Update Player ID Database to include new rookies and international FA signings if applicable
