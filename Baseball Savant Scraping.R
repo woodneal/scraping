@@ -1485,5 +1485,11 @@ player_id_database <- player_id_database %>%
   unique() %>%
   write_csv("Player ID Database")
 
+# ------------------------------------------------------------------------------
+# Combining each season together 
+# ------------------------------------------------------------------------------
 
+data_all <- rbind(data2016, data2017, data2018, data2019, data2020, data2021, data2022, data2023)                                
+setwd('ENTER FILE PATH')
+write_csv(data_all, "Baseball Savant Data 2016-2023")
 
