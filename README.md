@@ -1,2 +1,2 @@
 # statcast-scrapes
-Contains code and CSVs files from scraping pitch data from Baseball Savant.
+Contains code for scraping pitch data from Baseball Savant.
